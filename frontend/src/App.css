@@ -1,0 +1,94 @@
+/* body{
+  height: 100%;
+  width: 100%;
+} */
+.App {
+  height: 250px;
+  background-image: radial-gradient(circle, rgb(103, 158, 221), rgba(0, 0, 0, 0.878));
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%
+
+}
+
+h1 {
+  padding-top: 3%;
+  /* margin-top: 80%; */
+  margin: auto;
+  text-align: center;
+  color: aliceblue;
+  font: 3em sans-serif;
+}
+
+.form {
+  /* margin: auto; */
+  height: 70%;
+  padding:auto;
+  text-align: center;
+}
+.searchbar{
+  border-radius: 4px;
+  width: 60%;
+}
+
+h2 {
+  padding-top: 5%;
+  margin: auto;
+  text-align: center;
+  color: rgb(54, 54, 54);
+  font:3em "cursive";
+}
+
+center {
+  padding: 10px;
+  margin: 10px 60px 10px 60px;
+
+}
+
+/* tr {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 5px 50px;
+} */
+
+.copy {
+  color: rgb(105, 105, 105);
+}
+
+.search {
+  color: rgb(39, 188, 242);
+}
+
+.select {
+  color: rgb(7, 251, 88);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #045fe6;
+  border-color: #1975ff;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: rgba(2, 188, 64, 0.838);
+  border-color: rgb(2, 214, 73);
+}
+
+.dropdown-item {
+  text-align: top;
+  /* vertical-align: super; */
+}
+
+@media screen and (max-width: 450px) {
+  .App{
+    height: 280px;
+  }
+  center {
+    margin: 10px 30px 10px 30px;
+  
+  }
+}
